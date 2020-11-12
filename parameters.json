@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "virtualNetworkId": {
+        "value": "VNet1"
+      },
+      "subnetName": {
+        "value": "Subnet-2"
+      },
+      "virtualMachineName": {
+        "value": "mayama"  
+      },
+      "domainUsername": {
+        "value": "domainadmin"
+      },
+      "domainPassword":{
+          "value": "Password.1!!"
+      },
+      "adminPassword":{
+          "value": "!qaz2wsx3edc4"
+      }
+    }
+}
